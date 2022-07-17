@@ -51,8 +51,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 8px 15px;
-    /*padding-left: 15px;
-    padding-right: 15px;*/
 }
 
 .section-title {
@@ -64,8 +62,6 @@ body {
 }
 /*==============HEADER==============*/
 .page-header {
-    /*padding-top: 24px;
-    padding-bottom: 24px;*/
     border-bottom: 1px solid #ececec;
 }
 
@@ -170,7 +166,7 @@ color: #000000;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #C4C4C4;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero/img-hero.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img-hero.jpg");
     background-size: cover;
 }
     
