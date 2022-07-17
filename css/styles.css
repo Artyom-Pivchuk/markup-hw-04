@@ -389,8 +389,57 @@ color: #000000;
 /*============FOOTER=============*/
 .footer {
     background: var(--background-color);
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-right-container {
+    margin-left: 70px;
+    padding-top: 72px;
+}
+
+.footer-left-container {
+    padding-top: 60px;
+}
+
+.footer-right-description {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-right-list-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--title-color);
+}
+
+.footer-right-list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-right-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-right-list-item:not(:first-child) {
+    margin-left: 10px;
+}
+
+.footer-right-list-link:hover,
+.footer-right-list-link:focus {
+    background-color: var(--accent-color);
 }
 
 .footer-contacts {
